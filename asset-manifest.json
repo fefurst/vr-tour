@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/vr-tour/static/css/main.620b407d.css",
-    "main.js": "/vr-tour/static/js/main.72729822.js",
+    "main.js": "/vr-tour/static/js/main.f24507aa.js",
     "index.html": "/vr-tour/index.html",
     "main.620b407d.css.map": "/vr-tour/static/css/main.620b407d.css.map",
-    "main.72729822.js.map": "/vr-tour/static/js/main.72729822.js.map"
+    "main.f24507aa.js.map": "/vr-tour/static/js/main.f24507aa.js.map"
   },
   "entrypoints": [
     "static/css/main.620b407d.css",
-    "static/js/main.72729822.js"
+    "static/js/main.f24507aa.js"
   ]
 }
