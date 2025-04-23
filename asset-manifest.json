@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vr-tour/static/css/main.620b407d.css",
+    "main.js": "/vr-tour/static/js/main.272fe4bf.js",
+    "index.html": "/vr-tour/index.html",
+    "main.620b407d.css.map": "/vr-tour/static/css/main.620b407d.css.map",
+    "main.272fe4bf.js.map": "/vr-tour/static/js/main.272fe4bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.620b407d.css",
+    "static/js/main.272fe4bf.js"
+  ]
+}
