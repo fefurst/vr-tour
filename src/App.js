@@ -44,16 +44,16 @@ function CenaGrupo() {
 
 
   conf.scenes = conf.scenes.map((sc, idx) => {
-    sc.textureL = useLoader(THREE.TextureLoader, `/stereoscopic/${sc.imgname}-left.jpg`);
+    sc.textureL = useLoader(THREE.TextureLoader, `stereoscopic/${sc.imgname}-left.jpg`);
     sc.textureL.generateMipmaps = false;
-    sc.textureR = useLoader(THREE.TextureLoader, `/stereoscopic/${sc.imgname}-right.jpg`);
+    sc.textureR = useLoader(THREE.TextureLoader, `stereoscopic/${sc.imgname}-right.jpg`);
     sc.textureR.generateMipmaps = false;
 
     return sc;
   });
 
-  const arrBlk = useLoader(THREE.TextureLoader, `/arrow-black.png`);
-  const arrWht = useLoader(THREE.TextureLoader, `/arrow-white.png`);
+  const arrBlk = useLoader(THREE.TextureLoader, `arrow-black.png`);
+  const arrWht = useLoader(THREE.TextureLoader, `arrow-white.png`);
 
 
   return (
