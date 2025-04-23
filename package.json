@@ -1,0 +1,33 @@
+{
+  "name": "vr-sobradofs",
+  "version": "1.0.0",
+  "description": "A simple building vr tour ",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  
+  "author": "Felipe Furst",
+  "license": "ISC",
+  
+  "dependencies": {
+    "@react-three/drei": "^9.19.2",
+    "@react-three/fiber": "^8.2.2",
+    "@react-three/xr": "^4.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "react-umami": "^1.0.1",
+    "three": "^0.143.0"
+  }
+}
