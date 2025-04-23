@@ -15,11 +15,11 @@ import Loading from "./components/Loading.js"
 
 extend({ OrbitControls })
 
-const tracker = new react_umami(
+/*const tracker = new react_umami(
   "20eaaad8-b3a4-432d-ae9e-a438eac3150c",
   "sobradofs.cloud.ffurst.com",
   "https://umami.cloud.ffurst.com/umami.js"
-);
+);*/
 
 THREE.Cache.enabled = true;
 
@@ -37,8 +37,8 @@ function CenaGrupo() {
   
   useEffect(() => {
     // Update the document title using the browser API
-    tracker.trackView(`/${scene}`);    
-    tracker.trackEvent("VR", `${isPresenting}`, `/${scene}`);
+    //tracker.trackView(`/${scene}`);    
+    //tracker.trackEvent("VR", `${isPresenting}`, `/${scene}`);
     
   });
 
@@ -76,7 +76,7 @@ function App() {
 
     useEffect(() => {
       // Update the document title using the browser API
-      tracker.trackView("/");
+      //tracker.trackView("/");
     });
 
     return (
